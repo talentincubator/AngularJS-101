@@ -1,0 +1,13 @@
+<div class="row">
+    <div class="col-xs-3">
+        <ul class="nav nav-pills nav-stacked on-click-make-active">
+            <!--Loads admin.viewAll state, doesn't contain anything right now -->
+            <li><a ui-sref="admin.viewAll">View All Posts</a></li> <!--Loads admin.postNew state -->
+            <li class="active"><a ui-sref="admin.postNew">Add Post
+            </a></li>
+        </ul>
+    </div>
+    <div class="col-xs-9 border-left">
+        <div ui-view></div> <!--The nested views are loaded here -->
+    </div>
+</div>

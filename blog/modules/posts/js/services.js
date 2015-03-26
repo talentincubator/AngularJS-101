@@ -37,5 +37,5 @@ angular.module('Blogger.posts.services', []).factory('postService' , function() 
         if (this.posts[i].id == id) {
           return this.posts[i];
         } }
-      }, }
+      } }
     });
