@@ -1,4 +1,4 @@
-angular.module('Blogger.posts.controllers',[]).controller
+angular.module('Blogger.posts.controllers',['']).controller
 	 ('PostController',['$scope','postService',
 	 	function($scope,postService){
 	 		$scope.getAllPosts=function(){

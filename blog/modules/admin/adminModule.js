@@ -1,4 +1,4 @@
-angular.module('Blogger.admin', ['ui.router', 'Blogger.admin.controllers']).config(['$stateProvider', function($stateProvider){
+angular.module('Blogger.admin', ['ui.router', 'Blogger.admin.controllers', 'Blogger.admin.services']).config(['$stateProvider', function($stateProvider){
     $stateProvider.state('admin',{
         url:'/admin',
         abstract:true,
